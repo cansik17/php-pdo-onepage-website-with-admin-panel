@@ -1,0 +1,6 @@
+Options -indexes
+RewriteEngine On
+ErrorDocument 404 http://localhost/php/website1/404.php
+
+RewriteRule ^$ index.php [NC,L]
+RewriteRule ^admin$ login.php [NC,L]
